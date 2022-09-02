@@ -24,7 +24,7 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone -b main https://Santiopehv:${{ secrets.GH_TOKEN }}@github.com/Devilharsha/advance-encode-bot.git
+           git clone -b main https://Santiopehv:${{ secrets.GH_TOKEN }}@github.com/Santiopehv/advance-encode-bot.git
        - name: Running Bot 
          timeout-minutes: 350
          continue-on-error: true
